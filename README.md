@@ -1,5 +1,6 @@
 # yjs-ws-message-reader
 
+```
 [0]     0x00          - Message type (0 = sync/update)
 [1]     0x02          - Number of structs in this update = 2
 [2]     0x18 = 24     - Content/info byte (likely struct flags or content type)
@@ -15,3 +16,4 @@
 [26]    0x00          - null / content type marker
 
 [27-37] identical in both - document state vector or HMAC tail
+```
