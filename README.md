@@ -1,4 +1,5 @@
 # yjs-ws-message-reader
+yjs binary message converter
 
 ```
 [0]     0x00          - Message type (0 = sync/update)
