@@ -1,5 +1,5 @@
 # yjs-ws-message-reader
-yjs binary message converter
+yjs binary message converter: forge next clock value. Takes a base64-encoded thrn edit forgenext decode
 
 ```
 [0]     0x00          - Message type (0 = sync/update)
